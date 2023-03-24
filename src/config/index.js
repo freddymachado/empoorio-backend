@@ -3,9 +3,9 @@ const dotenv = require("dotenv");
 dotenv.config();
 
 module.exports = {
-  port: process.env.PORT,
+  port: 8000,
   mongoDb: {
-    mongoPass: process.env.MONGO_PASS,
-    mongoUser: process.env.MONGO_USER,
+    mongoPass: '65762642DD',
+    mongoUser: 'nerdydave2017',
   },
 };
