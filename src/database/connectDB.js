@@ -5,7 +5,7 @@ const config = require("../config");
 let username = config.mongoDb.mongoUser;
 let password = config.mongoDb.mongoPass;
 
-const MONGO_URI = `mongodb+srv://${username}:${password}@cluster0.tnwwg.mongodb.net/foodie?retryWrites=true&w=majority`;
+const MONGO_URI = `mongodb+srv://${username}:${password}@empoorio.oyocdl2.mongodb.net/?retryWrites=true&w=majority`;
 
 const connectDB = async () => {
   try {

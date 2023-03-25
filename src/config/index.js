@@ -5,7 +5,7 @@ dotenv.config();
 module.exports = {
   port: 8000,
   mongoDb: {
-    mongoPass: '65762642DD',
-    mongoUser: 'nerdydave2017',
+    mongoPass: 'LbdxrL14FWxLQKlf',
+    mongoUser: 'freddev',
   },
 };
